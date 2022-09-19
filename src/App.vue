@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 let arr1 = ref([[], [], [], [], [], [], [], [], [], [], []])
 for (let a = 0; a < 11; a++) {
-  for (let b = 1; b < 20; b++) {
+  for (let b = 1; b < 25; b++) {
     arr1.value[a].push(Math.floor(Math.random() * 9 + 1))
   }
 }
